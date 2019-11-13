@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.cover{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('back.jpeg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+.nav-bar{
+	width: 100%;
+	height: 90px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.left-bar{
+	width: 25%;
+	height: 100%;
+	/*background: green;*/
+	line-height: 95px;
+	display: inline-block;
+}
+.left-bar h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.right-bar{
+	width: 75%;
+	height: 100%;
+	display: inline-block;
+	/*background: red;*/
+}
+.right-bar ul li{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 85.5px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+.right-bar ul li:nth-child(1){
+	color: orange;
+}
+.right-bar ul li:hover{
+	color: orange;
+}
+.hero-text{
+	width: 100%;
+	margin-top: 180px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.hero-text h4{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.hero-text h1{
+	font-size: 62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin: 14px 0px;
+}
+.hero-text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+#btn-1{
+	border: none;
+	background: linear-gradient(45deg, white, transparent);
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 25px;
+	border: 3px solid white;
+}
+#btn-1:hover{
+	background: linear-gradient(45deg, orange, transparent);
+	cursor: pointer;
+	border-radius: 10px;
+}
